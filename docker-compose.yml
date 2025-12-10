@@ -3,7 +3,7 @@ services:
   s-ui:
     image: alireza7/s-ui
     container_name: s-ui
-    hostname: "s-ui"
+    hostname: "ccui"
     volumes:
       - "./db:/app/db"
       - "./cert:/app/cert"
